@@ -6,7 +6,7 @@ import chess.svg
 from PyQt5.QtSvg import QSvgWidget
 from PyQt5.QtWidgets import QApplication, QWidget
 
-
+# This need to be edited to enable moving the pieces.
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
@@ -27,8 +27,8 @@ if __name__ == "__main__":
     window.show()
     app.exec()
 
-board = chess.Board()
-print(board)
-print("\n\n")
-board.push_san("e4")
-print(board)
+#board = chess.Board()
+#print(board)
+#print("\n\n")
+#board.push_san("e4")
+#print(board)
